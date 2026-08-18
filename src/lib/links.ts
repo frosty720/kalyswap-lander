@@ -16,9 +16,9 @@ export const LINKS = {
 	docs: 'https://docs.kalychain.io',
 	explorer: 'https://kalyscan.io',
 	apiDocs: 'https://kalyscan.io/api-docs',
-	twitter: 'https://twitter.com/KalyChain',
-	discord: 'https://discord.gg/4fDuS3cBJw',
-	telegram: 'https://t.me/+yj8Ae9lNXmg1Yzkx',
+	twitter: 'https://x.com/KalyChainEVM',
+	discord: 'https://discord.gg/p4Gz7K8U',
+	telegram: 'https://t.me/KalyChainEVM',
 	github: 'https://github.com/KalyCoinProject',
 } as const;
 
