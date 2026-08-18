@@ -18,7 +18,24 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "system-ui", "sans-serif"],
+      },
       colors: {
+        // Brand palette — shared with kaly-site landing (gold on near-black)
+        ink: "#0A0A0A",
+        surface: "#141414",
+        surfacealt: "#1A1A1A",
+        cream: "#F5F0E6",
+        gold: {
+          DEFAULT: "#F59E0B",
+          dark: "#D97706",
+          bright: "#F7931A",
+        },
+        violet: {
+          DEFAULT: "#8B5CF6",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

@@ -67,3 +67,46 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* ---------- Landing utilities — shared with kaly-site landing ---------- */
+@layer utilities {
+	html {
+		scroll-behavior: smooth;
+	}
+
+	section[id] {
+		scroll-margin-top: 6rem;
+	}
+
+	::selection {
+		background: rgba(245, 158, 11, 0.35);
+	}
+
+	.hairline {
+		border-color: rgba(245, 240, 230, 0.1);
+	}
+
+	.text-gradient-gold {
+		background: linear-gradient(100deg, #f7931a, #f59e0b 45%, #fbbf24);
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
+	}
+
+	.gold-glow {
+		box-shadow: 0 0 32px -6px rgba(245, 158, 11, 0.55);
+	}
+
+	.card-hover {
+		transition:
+			transform 0.25s ease,
+			border-color 0.25s ease,
+			box-shadow 0.25s ease;
+	}
+
+	.card-hover:hover {
+		transform: translateY(-4px);
+		border-color: rgba(245, 158, 11, 0.45);
+		box-shadow: 0 12px 40px -18px rgba(245, 158, 11, 0.35);
+	}
+}
