@@ -1,3 +1,5 @@
+import type { Locale } from '@/i18n';
+
 export const APP_URL = 'https://app.kalyswap.io';
 
 export const LINKS = {
@@ -19,3 +21,13 @@ export const LINKS = {
 	telegram: 'https://t.me/+yj8Ae9lNXmg1Yzkx',
 	github: 'https://github.com/KalyCoinProject',
 } as const;
+
+/** Vaults dApp per locale — the vaults site ships EN and FR only. */
+export function vaultsUrl(locale: Locale): string {
+	return locale === 'fr' ? 'https://vaults.kalychain.io/fr/app' : 'https://vaults.kalychain.io/en/app';
+}
+
+/** kalychain.io serves EN at the root and /fr, /es prefixed. */
+export function kalychainUrl(locale: Locale): string {
+	return locale === 'en' ? LINKS.kalychain : `${LINKS.kalychain}/${locale}`;
+}

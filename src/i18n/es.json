@@ -1,0 +1,183 @@
+{
+	"meta": {
+		"title": "KalySwap — La Super App DeFi en KalyChain",
+		"description": "Intercambia, gana, usa el bridge y explora DeFi en KalyChain con KalySwap — trading, liquidez, farming, staking y vaults NFT por menos de un centavo por transacción.",
+		"ogTitle": "KalySwap — La Super App DeFi en KalyChain",
+		"ogDescription": "Todo DeFi en un solo lugar — intercambia, gana y construye en KalyChain."
+	},
+	"nav": {
+		"products": "Productos",
+		"yield": "Rendimiento Real",
+		"dashboard": "Panel",
+		"security": "Seguridad",
+		"docs": "Docs",
+		"kalychain": "KalyChain",
+		"launchApp": "Abrir la App"
+	},
+	"hero": {
+		"badge": "IMPULSADO POR KALYCHAIN",
+		"titleTop": "KalySwap — La",
+		"titleAccent": "Super App DeFi",
+		"desc1": "Todo DeFi en un solo lugar. Swap, liquidez, farming, staking, vaults NFT y mucho más — sobre una infraestructura rápida por menos de un centavo por transacción. Tus activos generan ",
+		"descHighlight": "Rendimiento Real",
+		"desc2": " en cada bloque.",
+		"launchApp": "Abrir la App",
+		"exploreVaults": "Explorar los Vaults",
+		"fee": "< $0.01 por transacción",
+		"nonCustodial": "Sin custodia",
+		"realYield": "Rendimiento Real en cada bloque"
+	},
+	"stats": {
+		"label": "Métricas en vivo · Subgraphs KalySwap V2 + V3",
+		"tvl": "Valor Total Bloqueado",
+		"transactions": "Transacciones de Swap",
+		"pools": "Pools de Liquidez",
+		"klcPrice": "Precio de KLC"
+	},
+	"products": {
+		"badge": "UNA APP, TODAS LAS PRIMITIVAS DEFI",
+		"title": "Todo DeFi,",
+		"titleAccent": "bajo un mismo techo",
+		"description": "Deja de saltar entre mil dApps. KalySwap une trading, rendimiento, staking y lanzamientos en una sola super app.",
+		"comingSoon": "PRÓXIMAMENTE",
+		"swap": {
+			"title": "Swap",
+			"description": "Intercambio instantáneo de tokens con liquidez profunda y comisiones casi nulas."
+		},
+		"pools": {
+			"title": "Pools",
+			"description": "Aporta liquidez a KLC, KUSD y más, y gana las comisiones de trading."
+		},
+		"farm": {
+			"title": "Farm",
+			"description": "Haz staking de tus tokens LP en las farms para ganar recompensas extra."
+		},
+		"stake": {
+			"title": "Stake",
+			"description": "Haz staking de KLC para apoyar la red y ganar recompensas del protocolo."
+		},
+		"vaults": {
+			"title": "Vaults NFT",
+			"description": "Vaults NFT de auto-composición respaldados por liquidez del protocolo."
+		},
+		"bridge": {
+			"title": "Bridge",
+			"description": "Mueve activos entre cadenas hacia el ecosistema KalyChain."
+		},
+		"launchpad": {
+			"title": "Launchpad",
+			"description": "Descubre y apoya los próximos proyectos lanzados en KalyChain."
+		},
+		"lend": {
+			"title": "Lend",
+			"description": "Deposita activos para ganar, o pide prestado contra tu cartera."
+		},
+		"card": {
+			"title": "Tarjeta KUSD",
+			"description": "Gasta tu stablecoin KUSD en cualquier lugar, de la cadena al mundo real."
+		}
+	},
+	"yield": {
+		"badge": "RENDIMIENTO REAL, NO INFLACIÓN",
+		"title": "Tus activos generan",
+		"titleAccent": "en cada bloque",
+		"description": "Los rendimientos de KalySwap se basan en la actividad real del protocolo — comisiones de swap, farms y recompensas de staking — liquidados de forma transparente on-chain. Las recompensas se acumulan continuamente y puedes reclamarlas en cualquier momento.",
+		"factCustody": "Sin custodia",
+		"factPerTx": "Por transacción",
+		"factClaim": "Reclama cuando quieras",
+		"liquidity": {
+			"title": "Aporta liquidez",
+			"description": "Gana una parte de las comisiones de trading de cada swap en tus pools."
+		},
+		"farmStake": {
+			"title": "Farm y staking",
+			"description": "Pon tus tokens LP a trabajar en las farms o haz staking de KLC para recompensas del protocolo."
+		},
+		"vaultsNft": {
+			"title": "Vaults NFT",
+			"description": "Estrategias de vaults de auto-composición respaldadas por la liquidez del protocolo."
+		}
+	},
+	"dashboard": {
+		"badge": "TU CARTERA DE UN VISTAZO",
+		"title": "Un panel hecho para",
+		"titleAccent": "usuarios DeFi de verdad",
+		"description": "Sigue tus saldos, rendimientos activos y desempeño en todos los productos KalySwap desde un único centro de control elegante.",
+		"chainLabel": "KalyChain · Vista previa",
+		"portfolioValue": "Valor total de la cartera",
+		"liveStats": "Stats en vivo",
+		"liveNote": "En vivo desde los subgraphs KalySwap V2 + V3.",
+		"myAssets": "Mis activos",
+		"viewAll": "Ver todo",
+		"colAsset": "Activo",
+		"colBalance": "Saldo",
+		"colPrice": "Precio",
+		"colValue": "Valor",
+		"col24h": "24h",
+		"activeYields": "Rendimientos activos",
+		"openDashboard": "Abrir el panel",
+		"positionPool": {
+			"title": "Pool KLC/USDT",
+			"detail": "Liquidez aportada",
+			"status": "Generando comisiones"
+		},
+		"positionFarm": {
+			"title": "Farm KSWAP/KLC",
+			"detail": "Tokens LP en staking",
+			"status": "Generando recompensas"
+		},
+		"positionStaking": {
+			"title": "Staking de KLC",
+			"detail": "KLC en staking",
+			"status": "Generando recompensas"
+		},
+		"disclaimer": "Vista previa de la interfaz — las cifras de la cartera son ilustrativas. Las stats del protocolo son en vivo."
+	},
+	"security": {
+		"badge": "CONSTRUIDO SOBRE BASES SÓLIDAS",
+		"title": "Rápido, económico y",
+		"titleAccent": "seguro por diseño",
+		"description": "KalySwap funciona sobre KalyChain, una Layer 1 EVM de alto rendimiento. Sin custodia por defecto — siempre controlas tus llaves — con smart contracts open source y liquidación transparente on-chain.",
+		"pillarCustody": {
+			"title": "Sin custodia",
+			"description": "Tus llaves, tus activos, siempre."
+		},
+		"pillarOpenSource": {
+			"title": "Contratos open source",
+			"description": "Transparentes y verificables on-chain."
+		},
+		"pillarFees": {
+			"title": "Comisiones bajo un centavo",
+			"description": "Menos de $0.01 por transacción."
+		},
+		"pillarEvm": {
+			"title": "Layer 1 EVM",
+			"description": "Impulsado por la infraestructura KalyChain."
+		},
+		"ecosystemTitle": "Parte del ecosistema KalyChain",
+		"ecosystemDescription": "KalySwap es la puerta de entrada DeFi de consumo de un ecosistema completo — junto a la L1 KalyChain, la gobernanza on-chain KalyDAO y el stablecoin KUSD.",
+		"ecosystemL1": "KalyChain L1",
+		"ecosystemDao": "KalyDAO"
+	},
+	"cta": {
+		"badge": "EMPIEZA EN SEGUNDOS",
+		"title": "¿Listo para entrar en la",
+		"titleAccent": "Super App DeFi?",
+		"description": "Conecta tu wallet y empieza a intercambiar, ganar y construir tu cartera on-chain en minutos — por menos de un centavo por transacción.",
+		"launchApp": "Abrir la App",
+		"explore": "Explorar productos"
+	},
+	"footer": {
+		"tagline": "La super app DeFi del ecosistema KalyChain. Intercambia, gana y construye — todo en un solo lugar.",
+		"products": "Productos",
+		"resources": "Recursos",
+		"connect": "Comunidad",
+		"linkDocs": "Documentación",
+		"linkExplorer": "Explorador de bloques",
+		"linkApi": "API",
+		"linkGovernance": "Gobernanza",
+		"linkL1": "KalyChain L1",
+		"copyright": "KalySwap · Una empresa KalyChain. Todo DeFi en un solo lugar.",
+		"operational": "App operativa"
+	}
+}
