@@ -13,13 +13,13 @@ interface DashboardPreviewProps {
 // Portfolio figures below are an illustrative mockup (labeled on the page);
 // only the "Live stats" card shows real subgraph data.
 const ASSETS = [
-	{ badge: 'K', badgeClass: 'from-gold-bright to-gold-dark', symbol: 'KLC', name: 'KalyChain', balance: '2,400,000', price: '$0.0020', value: '$4,800', change: '+8.2%', changeClass: 'text-emerald-400' },
+	{ badge: 'K', badgeClass: 'from-gold-bright to-gold-dark', symbol: 'KMT', name: 'KalyChain', balance: '24,000', price: '$0.20', value: '$4,800', change: '+8.2%', changeClass: 'text-emerald-400' },
 	{ badge: '$', badgeClass: 'from-emerald-400 to-green-600', symbol: 'KUSD', name: 'Kaly Dollar', balance: '3,500', price: '$1.00', value: '$3,500', change: '0.0%', changeClass: 'text-cream/50' },
 	{ badge: 'E', badgeClass: 'from-indigo-400 to-blue-600', symbol: 'ETH', name: 'Ethereum', balance: '0.85', price: '$3,120', value: '$2,652', change: '-1.4%', changeClass: 'text-red-400' },
 	{ badge: 'B', badgeClass: 'from-orange-400 to-amber-600', symbol: 'BTC', name: 'Bitcoin', balance: '0.014', price: '$102,400', value: '$1,433', change: '+2.1%', changeClass: 'text-emerald-400' },
 ];
 
-const STAT_KEYS = ['tvl', 'transactions', 'pools', 'klcPrice'] as const;
+const STAT_KEYS = ['tvl', 'transactions', 'pools', 'kmtPrice'] as const;
 
 export default function DashboardPreview({ t, stats, statLabels }: DashboardPreviewProps) {
 	const positions = [t.positionPool, t.positionFarm, t.positionStaking];

@@ -28,11 +28,11 @@
 		"realYield": "Real Yield every block"
 	},
 	"stats": {
-		"label": "Live metrics · KalySwap V2 + V3 subgraphs",
+		"label": "Live metrics · KalySwap V3 subgraph",
 		"tvl": "Total Value Locked",
 		"transactions": "Swap Transactions",
 		"pools": "Liquidity Pools",
-		"klcPrice": "KLC Price"
+		"kmtPrice": "KMT Price"
 	},
 	"products": {
 		"badge": "ONE APP, EVERY DEFI PRIMITIVE",
@@ -46,7 +46,7 @@
 		},
 		"pools": {
 			"title": "Pools",
-			"description": "Provide liquidity to KLC, KUSD & more and earn trading fees."
+			"description": "Provide liquidity to KMT, KUSD & more and earn trading fees."
 		},
 		"farm": {
 			"title": "Farm",
@@ -54,7 +54,7 @@
 		},
 		"stake": {
 			"title": "Stake",
-			"description": "Stake KLC to support the network and earn protocol rewards."
+			"description": "Stake KMT to support the network and earn protocol rewards."
 		},
 		"vaults": {
 			"title": "Vaults NFT",
@@ -91,7 +91,7 @@
 		},
 		"farmStake": {
 			"title": "Farm & stake",
-			"description": "Put LP tokens to work in farms or stake KLC for protocol rewards."
+			"description": "Put LP tokens to work in farms or stake KMT for protocol rewards."
 		},
 		"vaultsNft": {
 			"title": "Vaults NFT",
@@ -106,7 +106,7 @@
 		"chainLabel": "KalyChain · Interface preview",
 		"portfolioValue": "Total Portfolio Value",
 		"liveStats": "Live Stats",
-		"liveNote": "Live from the KalySwap V2 + V3 subgraphs.",
+		"liveNote": "Live from the KalySwap V3 subgraph.",
 		"myAssets": "My assets",
 		"viewAll": "View all",
 		"colAsset": "Asset",
@@ -117,18 +117,18 @@
 		"activeYields": "Active yields",
 		"openDashboard": "Open the dashboard",
 		"positionPool": {
-			"title": "Pool KLC/USDT",
+			"title": "Pool KMT/USDT",
 			"detail": "Liquidity provided",
 			"status": "Earning fees"
 		},
 		"positionFarm": {
-			"title": "Farm KSWAP/KLC",
+			"title": "Farm KMT/USDT",
 			"detail": "LP tokens staked",
 			"status": "Earning rewards"
 		},
 		"positionStaking": {
-			"title": "KLC Staking",
-			"detail": "KLC staked",
+			"title": "KMT Staking",
+			"detail": "KMT staked",
 			"status": "Earning rewards"
 		},
 		"disclaimer": "Interface preview — portfolio figures are illustrative. Protocol stats are live."

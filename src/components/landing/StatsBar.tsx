@@ -7,7 +7,7 @@ interface StatsBarProps {
 	stats: DexStats;
 }
 
-const STAT_KEYS = ['tvl', 'transactions', 'pools', 'klcPrice'] as const;
+const STAT_KEYS = ['tvl', 'transactions', 'pools', 'kmtPrice'] as const;
 
 export default function StatsBar({ t, stats }: StatsBarProps) {
 	return (

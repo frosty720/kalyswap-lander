@@ -28,11 +28,11 @@
 		"realYield": "Rendement Réel à chaque bloc"
 	},
 	"stats": {
-		"label": "Métriques en direct · Subgraphs KalySwap V2 + V3",
+		"label": "Métriques en direct · Subgraph KalySwap V3",
 		"tvl": "Valeur Totale Verrouillée",
 		"transactions": "Transactions de Swap",
 		"pools": "Pools de Liquidité",
-		"klcPrice": "Prix du KLC"
+		"kmtPrice": "Prix du KMT"
 	},
 	"products": {
 		"badge": "UNE APP, TOUTES LES PRIMITIVES DEFI",
@@ -46,7 +46,7 @@
 		},
 		"pools": {
 			"title": "Pools",
-			"description": "Fournissez de la liquidité en KLC, KUSD et plus, et gagnez les frais de trading."
+			"description": "Fournissez de la liquidité en KMT, KUSD et plus, et gagnez les frais de trading."
 		},
 		"farm": {
 			"title": "Farm",
@@ -54,7 +54,7 @@
 		},
 		"stake": {
 			"title": "Stake",
-			"description": "Stakez du KLC pour soutenir le réseau et gagner des récompenses du protocole."
+			"description": "Stakez du KMT pour soutenir le réseau et gagner des récompenses du protocole."
 		},
 		"vaults": {
 			"title": "Vaults NFT",
@@ -91,7 +91,7 @@
 		},
 		"farmStake": {
 			"title": "Farmer & staker",
-			"description": "Mettez vos tokens LP au travail dans les farms ou stakez du KLC pour des récompenses du protocole."
+			"description": "Mettez vos tokens LP au travail dans les farms ou stakez du KMT pour des récompenses du protocole."
 		},
 		"vaultsNft": {
 			"title": "Vaults NFT",
@@ -106,7 +106,7 @@
 		"chainLabel": "KalyChain · Aperçu de l'interface",
 		"portfolioValue": "Valeur totale du portefeuille",
 		"liveStats": "Stats en direct",
-		"liveNote": "En direct des subgraphs KalySwap V2 + V3.",
+		"liveNote": "En direct du subgraph KalySwap V3.",
 		"myAssets": "Mes actifs",
 		"viewAll": "Tout voir",
 		"colAsset": "Actif",
@@ -117,18 +117,18 @@
 		"activeYields": "Rendements actifs",
 		"openDashboard": "Ouvrir le tableau de bord",
 		"positionPool": {
-			"title": "Pool KLC/USDT",
+			"title": "Pool KMT/USDT",
 			"detail": "Liquidité fournie",
 			"status": "Frais en cours"
 		},
 		"positionFarm": {
-			"title": "Farm KSWAP/KLC",
+			"title": "Farm KMT/USDT",
 			"detail": "Tokens LP stakés",
 			"status": "Récompenses en cours"
 		},
 		"positionStaking": {
-			"title": "Staking KLC",
-			"detail": "KLC staké",
+			"title": "Staking KMT",
+			"detail": "KMT staké",
 			"status": "Récompenses en cours"
 		},
 		"disclaimer": "Aperçu de l'interface — les chiffres du portefeuille sont illustratifs. Les stats du protocole sont en direct."
