@@ -28,11 +28,13 @@ const config = {
         surface: "#141414",
         surfacealt: "#1A1A1A",
         cream: "#F5F0E6",
+        // Gold tokens copied from the KalySwap app (frontend globals.css) so the lander matches it exactly
         gold: {
           DEFAULT: "#F59E0B",
-          dark: "#D97706",
-          bright: "#F7931A",
+          light: "#FBBF24",
+          soft: "rgba(245, 158, 11, 0.12)",
         },
+        "on-gold": "#1A1206",
         violet: {
           DEFAULT: "#8B5CF6",
         },

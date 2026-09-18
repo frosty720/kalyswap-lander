@@ -26,14 +26,14 @@ export default function HeroSection({ t, locale }: HeroSectionProps) {
 
 			<div className="relative mx-auto max-w-[1240px] w-full px-6 pt-28 pb-16">
 				<div className="max-w-3xl">
-					<span className="inline-flex items-center gap-2 rounded-full border border-gold/30 bg-ink/50 backdrop-blur px-3.5 py-1.5 text-xs font-display tracking-widest text-gold mb-7">
+					<span className="inline-flex items-center gap-2 rounded-full border border-gold/30 bg-gold-soft px-3.5 py-1.5 text-xs font-display tracking-widest text-gold-light mb-7">
 						<span className="w-1.5 h-1.5 rounded-full bg-gold animate-pulse" /> {t.badge}
 					</span>
 
 					<h1 className="font-display font-bold text-5xl md:text-[68px] leading-[1.03] tracking-tight mb-6">
 						{t.titleTop}
 						<br />
-						<span className="text-gradient-gold">{t.titleAccent}</span>
+						<span className="text-gold">{t.titleAccent}</span>
 					</h1>
 
 					<p className="text-cream/75 text-lg md:text-xl leading-relaxed mb-9 max-w-2xl">
@@ -47,7 +47,7 @@ export default function HeroSection({ t, locale }: HeroSectionProps) {
 							href={LINKS.app}
 							target="_blank"
 							rel="noopener noreferrer"
-							className="inline-flex items-center gap-2.5 rounded-xl bg-gradient-to-r from-gold-bright to-gold-dark px-7 py-4 text-base font-display font-bold text-ink hover:scale-[1.02] transition gold-glow"
+							className="inline-flex items-center gap-2.5 rounded-xl bg-gold-gradient px-7 py-4 text-base font-display font-bold text-on-gold hover:scale-[1.02] transition gold-glow"
 						>
 							<Zap className="w-4 h-4" /> {t.launchApp}
 						</a>

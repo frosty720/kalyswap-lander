@@ -21,11 +21,11 @@ export default function SecuritySection({ t, locale }: SecuritySectionProps) {
 		<section id="security" className="relative w-full py-24 border-t hairline bg-surface/30">
 			<div className="mx-auto max-w-[1240px] px-6 grid lg:grid-cols-2 gap-12 items-center">
 				<Reveal>
-					<span className="inline-flex items-center gap-2 rounded-full border border-gold/30 bg-ink/50 px-4 py-1.5 text-xs font-display tracking-widest text-gold uppercase">
+					<span className="inline-flex items-center gap-2 rounded-full border border-gold/30 bg-gold-soft px-4 py-1.5 text-xs font-display tracking-widest text-gold-light uppercase">
 						{t.badge}
 					</span>
 					<h2 className="font-display font-bold text-4xl md:text-5xl leading-tight mt-6">
-						{t.title} <span className="text-gradient-gold">{t.titleAccent}</span>
+						{t.title} <span className="text-gold">{t.titleAccent}</span>
 					</h2>
 					<p className="text-cream/65 text-lg mt-5 leading-relaxed">{t.description}</p>
 					<div className="grid sm:grid-cols-2 gap-4 mt-8">

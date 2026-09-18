@@ -19,7 +19,7 @@ export default function StatsBar({ t, stats }: StatsBarProps) {
 						<div key={key} className="text-center">
 							<Counter
 								{...stats.counters[key]}
-								className="font-display font-bold text-4xl md:text-5xl text-gradient-gold"
+								className="font-display font-bold text-4xl md:text-5xl text-gold"
 							/>
 							<p className="mt-2 text-sm text-cream/55 font-display">{t[key]}</p>
 						</div>

@@ -38,7 +38,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
 					href={LINKS.app}
 					target="_blank"
 					rel="noopener noreferrer"
-					className="fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-gold-bright to-gold-dark px-5 py-3 text-sm font-display font-semibold text-ink hover:scale-[1.03] transition gold-glow"
+					className="fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 rounded-full bg-gold-gradient px-5 py-3 text-sm font-display font-semibold text-on-gold hover:scale-[1.03] transition gold-glow"
 				>
 					<Zap className="w-4 h-4" /> {dict.nav.launchApp}
 				</a>

@@ -25,11 +25,11 @@ export default function RealYieldSection({ t, locale }: RealYieldSectionProps) {
 		<section id="yield" className="relative w-full py-24 border-t hairline bg-surface/30 overflow-hidden">
 			<div className="mx-auto max-w-[1240px] px-6 grid lg:grid-cols-2 gap-14 items-center">
 				<Reveal>
-					<span className="inline-flex items-center gap-2 rounded-full border border-gold/30 bg-ink/50 px-4 py-1.5 text-xs font-display tracking-widest text-gold uppercase">
+					<span className="inline-flex items-center gap-2 rounded-full border border-gold/30 bg-gold-soft px-4 py-1.5 text-xs font-display tracking-widest text-gold-light uppercase">
 						{t.badge}
 					</span>
 					<h2 className="font-display font-bold text-4xl md:text-5xl leading-tight mt-6">
-						{t.title} <span className="text-gradient-gold">{t.titleAccent}</span>
+						{t.title} <span className="text-gold">{t.titleAccent}</span>
 					</h2>
 					<p className="text-cream/65 text-lg mt-5 leading-relaxed">{t.description}</p>
 					<div className="grid grid-cols-3 gap-4 mt-9">
@@ -51,7 +51,7 @@ export default function RealYieldSection({ t, locale }: RealYieldSectionProps) {
 							rel="noopener noreferrer"
 							className="card-hover flex items-center gap-4 rounded-2xl border hairline bg-ink/50 p-5"
 						>
-							<span className="grid place-items-center shrink-0 w-11 h-11 rounded-xl bg-gradient-to-br from-gold/20 to-gold-dark/10 border border-gold/25 text-gold">
+							<span className="grid place-items-center shrink-0 w-11 h-11 rounded-xl bg-gold-soft border border-gold/25 text-gold">
 								<Icon className="w-5 h-5" />
 							</span>
 							<div>

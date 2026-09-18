@@ -75,7 +75,7 @@ export default function Header({ nav, locale }: HeaderProps) {
 							href={LINKS.app}
 							target="_blank"
 							rel="noopener noreferrer"
-							className="inline-flex items-center gap-2 whitespace-nowrap rounded-lg bg-gradient-to-r from-gold-bright to-gold-dark px-4 py-2 text-sm font-display font-semibold text-ink hover:gold-glow transition"
+							className="inline-flex items-center gap-2 whitespace-nowrap rounded-lg bg-gold-gradient px-4 py-2 text-sm font-display font-semibold text-on-gold hover:gold-glow transition"
 						>
 							<Zap className="w-3.5 h-3.5 shrink-0" /> {nav.launchApp}
 						</a>

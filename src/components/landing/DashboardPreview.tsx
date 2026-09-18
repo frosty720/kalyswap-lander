@@ -13,7 +13,7 @@ interface DashboardPreviewProps {
 // Portfolio figures below are an illustrative mockup (labeled on the page);
 // only the "Live stats" card shows real subgraph data.
 const ASSETS = [
-	{ badge: 'K', badgeClass: 'from-gold-bright to-gold-dark', symbol: 'KMT', name: 'KalyChain', balance: '24,000', price: '$0.20', value: '$4,800', change: '+8.2%', changeClass: 'text-emerald-400' },
+	{ badge: 'K', badgeClass: 'from-gold-light to-gold', symbol: 'KMT', name: 'KalyChain', balance: '24,000', price: '$0.20', value: '$4,800', change: '+8.2%', changeClass: 'text-emerald-400' },
 	{ badge: '$', badgeClass: 'from-emerald-400 to-green-600', symbol: 'KUSD', name: 'Kaly Dollar', balance: '3,500', price: '$1.00', value: '$3,500', change: '0.0%', changeClass: 'text-cream/50' },
 	{ badge: 'E', badgeClass: 'from-indigo-400 to-blue-600', symbol: 'ETH', name: 'Ethereum', balance: '0.85', price: '$3,120', value: '$2,652', change: '-1.4%', changeClass: 'text-red-400' },
 	{ badge: 'B', badgeClass: 'from-orange-400 to-amber-600', symbol: 'BTC', name: 'Bitcoin', balance: '0.014', price: '$102,400', value: '$1,433', change: '+2.1%', changeClass: 'text-emerald-400' },
@@ -28,11 +28,11 @@ export default function DashboardPreview({ t, stats, statLabels }: DashboardPrev
 		<section id="app" className="relative w-full py-24">
 			<div className="mx-auto max-w-[1240px] px-6">
 				<Reveal className="max-w-2xl mb-12">
-					<span className="inline-flex items-center gap-2 rounded-full border border-gold/30 bg-ink/50 px-4 py-1.5 text-xs font-display tracking-widest text-gold uppercase">
+					<span className="inline-flex items-center gap-2 rounded-full border border-gold/30 bg-gold-soft px-4 py-1.5 text-xs font-display tracking-widest text-gold-light uppercase">
 						{t.badge}
 					</span>
 					<h2 className="font-display font-bold text-4xl md:text-5xl leading-tight mt-6">
-						{t.title} <span className="text-gradient-gold">{t.titleAccent}</span>
+						{t.title} <span className="text-gold">{t.titleAccent}</span>
 					</h2>
 					<p className="text-cream/60 text-lg mt-5">{t.description}</p>
 				</Reveal>
@@ -55,7 +55,7 @@ export default function DashboardPreview({ t, stats, statLabels }: DashboardPrev
 								<span className="text-xs font-display tracking-widest text-cream/40 uppercase">{t.portfolioValue}</span>
 								<div className="flex items-center gap-1 text-xs font-display">
 									<span className="px-2 py-1 rounded text-cream/40">1D</span>
-									<span className="px-2 py-1 rounded bg-gold/20 text-gold">1W</span>
+									<span className="px-2 py-1 rounded bg-gold text-on-gold">1W</span>
 									<span className="px-2 py-1 rounded text-cream/40">1M</span>
 									<span className="px-2 py-1 rounded text-cream/40">1Y</span>
 								</div>
@@ -164,7 +164,7 @@ export default function DashboardPreview({ t, stats, statLabels }: DashboardPrev
 								href={LINKS.app}
 								target="_blank"
 								rel="noopener noreferrer"
-								className="mt-4 block w-full rounded-xl bg-gradient-to-r from-gold-bright to-gold-dark py-2.5 text-sm font-display font-bold text-ink text-center"
+								className="mt-4 block w-full rounded-xl bg-gold-gradient py-2.5 text-sm font-display font-bold text-on-gold text-center"
 							>
 								{t.openDashboard}
 							</a>
